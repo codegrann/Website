@@ -3,7 +3,7 @@
 
 }
 .body2{
-	background-image: url(charles-deluvio-Mv9hjnEUHR4-unsplash.jpg);
+	background-image: url(myPhotos/charles-deluvio-Mv9hjnEUHR4-unsplash.jpg);
 	margin: 20px;
 	padding-left: 0.4cm;
 }
@@ -36,6 +36,7 @@
 	width: 5cm;
 	height: auto;
 	position: relative;
+	border-radius: 10px;
 }
 #first:hover{
 	width: 6cm;
@@ -47,6 +48,7 @@
 #second{
     width: 5cm;
     height: auto;
+    border-radius: 10px;
 }
 #second:hover{
 	width: 6cm;
@@ -57,6 +59,7 @@
 #third{
 	width: 5cm;
 	height: auto;
+	border-radius: 10px;
 }
 #third:hover{
 	width: 6cm;
@@ -96,4 +99,16 @@
 	height: auto;
 	border-radius: 50%;
 	
+}
+button{
+	background-color: palegoldenrod;
+	border: 2px solid black;
+	color: red;
+}
+button:hover{
+	background-color: limegreen;
+	color: black;
+	cursor: pointer;
+	border: 2px solid beige;
+
 }

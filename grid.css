@@ -1,0 +1,21 @@
+li{
+	display: inline;
+	margin: 5px;
+}
+.grid-container{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+}
+#first{
+	background: skyblue;
+	padding: 10px;
+}
+#second{
+	background: rebeccapurple;
+	padding: 10px;
+}
+#third{
+	background: purple;
+	padding: 10px;
+}

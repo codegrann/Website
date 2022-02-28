@@ -1,0 +1,44 @@
+body{
+  background:linear-gradient(to right, rgb(255, 0, 0), rgba(255, 0, 0, 0.0));
+}
+
+}
+.flex-container{
+  height: 50px;
+      display: flex;
+      flex-direction: row;
+      border-style: none;
+      column-gap: 10px;
+
+
+}
+.school{
+  border-style: none;
+  color: black;
+
+}
+.market{
+  border-style: none;
+}
+.student{
+  border-style: none;
+  margin-left: auto;
+}
+.login{
+  border-style: none;
+  
+  
+}
+.account{
+  border-style: none;
+}
+.flex2{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  
+}
+input{
+  background: none;
+}
