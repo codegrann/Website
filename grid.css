@@ -4,7 +4,7 @@ li{
 }
 .grid-container{
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 0.5fr;
     gap: 15px;
 }
 #first{
@@ -14,6 +14,7 @@ li{
 #second{
 	background: rebeccapurple;
 	padding: 10px;
+	/*grid-auto-rows: 500px;*/
 }
 #third{
 	background: purple;
