@@ -74,3 +74,15 @@ input{
   height: 100px;
   font-size: 64pt;
 }
+.body2{
+  background-color: linear-gradient(90deg, blueviolet, skyblue);
+}
+.fleximages{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.fleximages>img{
+  width: 150px;
+  height: 150px;
+}
