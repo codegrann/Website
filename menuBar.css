@@ -1,6 +1,7 @@
 body{
-    background-image: url(myPhotos/cat1.jpg);
-    background-size: cover;
+    /*background-image: url(myPhotos/cat1.jpg);
+    background-size: contain;*/
+    background-color: white;
 }
 /*.menu-bar{
     background-color: rgb(15, 18, 230);
@@ -38,4 +39,8 @@ body{
 .menu-bar img{
     width: 20px;
     /*margin-right: 30px;*/
+}
+.container{
+    display: flex;
+    flex-direction: column;
 }
