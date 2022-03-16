@@ -1,5 +1,6 @@
-*{
-    background-color: whitesmoke;
+body{
+    background-image: url(myPhotos/cat1.jpg);
+    background-size: cover;
 }
 /*.menu-bar{
     background-color: rgb(15, 18, 230);
@@ -32,7 +33,7 @@
     padding: 3px;
     margin: 25px;
     background-color:blue;
-    color: black;
+    color: white;
 }
 .menu-bar img{
     width: 20px;
