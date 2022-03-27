@@ -1,0 +1,335 @@
+<!--1.layout
+The first step of any website is always to know what you want on it and (vaguely) how you want it to look. So, the first step is to do a rough sketch - either on paper or on the computer, depending on which you find easier.
+2. Get the ‘boilerplate code’ set up
+Now, it’s time to get the basic code that you have at the start of any website (this is commonly called the boilerplate).
+Do this by:
+    1. Creating a new folder on your computer for the website
+    2. Create new empty index.html and style.css files inside
+    3. Add the basic boilerplate code to your index.html file:
+3. Create the elements in your layout
+Now it’s time to create the layout/section elements that you planned in step 1!
+The best way to do this is by using static elements: <header>,<main>,<section>, and <footer>.
+4. Fill in the HTML content
+Once you have the sections of the page, it’s time to fill them up! If you know what content you are going to be using, put that in. If not, put in some dummy text and replace it with the actual content later.
+5. Add some basic layout CSS
+Once we’re done with our HTML, it’s time to move on to CSS! The first and most important part to focus on first is to get it looking like our layout - then we can focus on the details.
+This means that we need to focus on properties like width, height, margin, padding, position, and display. Also, we need to make sure the images are the right size so that they don’t obliterate the page.
+6. Add more specific styles
+Once the basic framework of the site is done, we can add more specific styles.
+Now we can make our website look good!
+7. Add colors and backgrounds
+Yay, we’re on the home stretch now! It’s time to add the finishing touches to our website - colors and backgrounds!
+This is what will make our site look really awesome.
+The HTML Codes are:-->
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>TONIC HOLDINGS COMPOANY LTD</title>
+    <link rel="stylesheet" href="tony.css">
+    <link rel="stylshheet" href="tony.js">
+</head>
+
+<body>
+    <header>
+        <img src="WhatsApp Image 2022-03-10 at 12.44.08 AM.jpeg" class="profile-img">
+        <nav>
+            <ul>
+                <li>
+                   <a href="#hero">
+                        <h4>Tonic Holdings</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#hero">
+                        <h4>Home</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#about">
+                        <h4>About</h4>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        <h4>Contact</h4>
+                    </a>
+                </li>
+
+            </ul>
+            <li>
+
+            </li>
+        </nav>
+
+    </header>
+    <main>
+        <section id="hero">
+            <div class="section-inner">
+                <img src="WhatsApp Image 2022-03-10 at 12.44.08 AM.jpeg" class="profile-img">
+                <h1>TONIC HOLDINGS COMPANY LTD.</h1>
+                <p>
+                    <h4>Your Business growth is our priority.Your Computer and IT consultancy firm of choice.</h4>
+                </p>
+            </div>
+        </section>
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>HIGHLIGHTS & ACTIVITIES</h2>
+                    <div class="fakeimg" style="height:200px;">
+                        <!--  <video width="100%" controls>
+                        <source src="video.mp4" type="video/mp4">
+                        <source src="video.mp4" type="video/mp4">
+                        Your Browser does not support HTML5 videos.
+
+                    </video>-->
+                        <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+                    </iframe>
+                    </div>
+                    <p>
+                        <h4>Tonic Holdings Brings to You:</h4>
+                    </p>
+                    <p>
+                        <h4>T-SOAP:</h4> Is a soap production company in OyugisTown that makes high-quality, all-natural, organic soaps. The Company distributes its products nationwide to major retailers and select department stores. The Company manufactures
+                        and sells the following products to its customers: Bar Soap ,Baby Soap (Bar and liquid) , Liquid Body Wash , Liquid Hand Soap.
+                        <h4>T-LINKS ADVENTURE:</h4>Is a public service company that provides travel and Tourism-related services to the general public on behalf of accommodation andtravel suppliers to offer different kinds of travelling packages for each
+                        destination.It also offers car rentals,Outdoor recreation,Hotels,Package Tours,Guid books and VIP air Lounge access.It also arange Logistics for luggage and medical Idem delivery for travellers upon request etc.
+                        <h4>T-CONSTRUCTION:</h4>Is acompany,created to construct a variety of buildings, apartment, infrastructure, developments, properties, facilities, housing, path, pavement, roads, motorway and other types of construction projects.
+                        <h4>T-MARKET:</h4>Is an ecommerce software application that is specifically designed to integrate all other E commerce websites to be accessed from one point and support the creation of an ecommerce website and add functionality to
+                        it. Plug-ins and add-ons to ecommerce website software are included, but applications that don't have specific ecommerce utility wouldn't be considered.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>
+                    <a style="float:right">
+                        <div class="search-container">
+                            <form action="/action_page.php">
+                                <input type="text" placeholder="search.." name="search">
+                                <button type="submit"><i class="fa fa-search"></i> </button>
+                            </form>
+                        </div>
+                    </a>
+                </h2>
+                <h4>DOCUMENTS</h4>
+                <div class="f" style="height: 200px;">
+                    <h3>OUR OFFICES</h3>
+                    <table>
+                        <tr>
+                            <th>Company</th>
+                            <th>Town</th>
+                            <th>Street</th>
+                            <th>Building</th>
+                        </tr>
+                        <tr>
+                            <td>TONIC HOLDINGS</td>
+                            <td>Nairobi</td>
+                            <td>Moi Avenue</td>
+                            <td>Kenbaco</td>
+                        </tr>
+                        <tr>
+                            <td>T-SOAP</td>
+                            <td>Oyugis</td>
+                            <td>Kotieno</td>
+                            <td>Ring Towers</td>
+                        </tr>
+                        <tr>
+                            <td>T-CONSTRUCTION</td>
+                            <td>Nairobi</td>
+                            <td>Tom Mboya</td>
+                            <td>Tetu Arcade</td>
+                        </tr>
+                        <tr>
+                            <td>T-LINKS ADVENTURE</td>
+                            <td>Nairobi</td>
+                            <td>Kenyatta</td>
+                            <td>I & M Towers</td>
+                        </tr>
+                    </table>
+                </div>
+                <p>
+                    <h5>Download a relevant document</h5>
+                </p>
+                <p>NOTE:Documents provided are for different companies incooporated within Tonic Holdings Limited,Download a relevant document with respect to where and what you are applying or requesting for.
+                    <table>
+                        <tr>
+                            <TH>COMPANY</TH>
+                            <th>DOCUMENTS</th>
+                        </tr>
+                        <tr>
+                            <td>TONIC HOLDINGS</td>
+                            <td>
+                                <ul>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Share Holders Aplication</a></li>
+                                    <li><a href="">Membership Card Aplication</a></li>
+                                    <li><a href="">Service Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>T-SOAP</td>
+                            <td>
+                                <ul>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Share Holders Aplication</a></li>
+                                    <li><a href="">Supply Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>T-CONSTRUCTION</td>
+                            <td>
+                                <ul>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Car Hire Aplication</a></li>
+                                    <li><a href="">Membership Aplication</a></li>
+                                    <li><a href="">Share Holders Aplication</a></li>
+                                    <li><a href="">Insuarance Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>T-LINKS ADVENTURE</td>
+                            <td>
+                                <ul>
+                                    <li><a href="">Contract Aplication</a></li>
+                                    <li><a href="">Car Hire Aplication</a></li>
+                                    <li><a href="">Membership Aplication</a></li>
+                                    <li><a href="">Share holders Aplication</a></li>
+                                    <li><a href="">Insuarance Aplication</a></li>
+                                    <li><a href="">Contract Aplication</a></li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="caerd">
+                <h2>UP COMMING EVENTS & ADVERTS</h2>
+                <div class="fakeimg" style="height: 200px;">
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="tech 5.jpg" style="width:100px">
+                            <div class="text">Caption Text</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="tech 3.jpg" style="width:100px">
+                            <div class="text">Caption Two</div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="tech 2.jpg" style="width:100px">
+                            <div class="text">Caption Three</div>
+                        </div>
+
+                        <a class="prev" onclick="plusSlides(-1)">❮</a>
+                        <a class="next" onclick="plusSlides(1)">❯</a>
+
+                    </div>
+
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div>
+
+                </div>
+                <p>Use the links bellow to Apply:</p>
+                <p>
+                    <ul>
+                        <li><a href="">Apply for Attachment</a></li>
+                        <li><a href="">Apply for Available jobs</a></li>
+                        <li><a href="">Apply for Available Contracts</a></li>
+                        <li><a href="">Apply for Internship</a></li>
+                        <li><a href="">Apply for Membership</a></li>
+                        <li><a href="">Apply to be Share Holder</a></li>
+                    </ul>
+                </p>
+
+                <section id="about">
+                    <div class="section-inner">
+                        <h2>About us</h2>
+                        <!--  <img src="mr (1).jpg" class="profile-img"> -->
+                        <p>Tonic Holdings is a Computer and IT consulting, also referred to as technology consulting, relates to services aimed at helping clients with utilising information and computer technology (ICT) and digital assets to optimally achieve
+                            their business goals. The Computer and IT consulting segment spans both advisory and implementation services, but excludes transactional IT activities.</p>
+                        <h3>Achievements</h3>
+                        <ul>
+                            <li>Creating awareness on technological changes in the field of technology
+                            </li>
+                            <li>Best Computer and IT Consultancy firm in kenya,2022</li>
+                            <li>Development of T-Market to provide integrated market</li>
+                        </ul>
+
+                    </div>
+
+                    <br>
+                    </p>
+
+            </div>
+            </section>
+            <section id="contact">
+                <div class="section-inner">
+                    <h2>Contact us</h2>
+
+                    <p>Or, you can <a href="mailto:llama@codetheweb.blog">send me an email</a>.</p>
+                </div>
+            </section>
+    </main>
+    <footer>
+        <p>
+            <h3>Find us on:</h3>
+            <br>
+        </p>
+
+        <ul>
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-yahoo"></a>
+
+        </ul>
+        <br> Tonic Holdings Company Limited © 2022.Service at the best quality.
+    </footer>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--CSS Codes are:
+
+
+
+Java Script Codes Are:
+ 
