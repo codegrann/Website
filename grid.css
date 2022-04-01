@@ -28,3 +28,8 @@ li{
 	background: purple;
 	padding: 10px;
 }
+*{
+	font-family: sans-serif, 'Times New Roman', Arial;
+	font-size: large;
+	font-weight: 500;
+}
