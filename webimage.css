@@ -87,11 +87,28 @@
 	height: 0.5cm;
 }
 #dog{
-	width: 5cm;
-	height: 2.5cm;
-	border: 1px;
-	border-style: solid;
+	/*width: 5cm;
+	height: 2.5cm;*/
+	background-color: turquoise;
+	border: 1px solid black;
 	box-shadow: 2px 2px 2px red;
+
+}
+.nav-flex{
+	display: flex;
+	padding: 0.5rem;
+	justify-content: flex-end;
+}
+.nav-flex li{
+	list-style: none;
+	margin: rem;
+	background-color: aqua;
+	padding: 2rem;
+
+}
+.nav-flex li a{
+	color: black;
+	text-decoration: none;
 
 }
 #clip-path{
