@@ -1,6 +1,6 @@
-body{
+/*body{
   background:linear-gradient(to right, rgb(255, 0, 0), rgba(255, 0, 0, 0.0));
-}
+}*/
 
 }
 .flex-container{
@@ -75,14 +75,14 @@ input{
   font-size: 64pt;
 }
 .body2{
-  background-color: linear-gradient(90deg, blueviolet, skyblue);
+  background-color: turquoise;
 }
 .fleximages{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.fleximages>img{
+/*.fleximages>img{
   width: 150px;
   height: 150px;
-}
+}*/
