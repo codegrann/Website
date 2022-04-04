@@ -1,0 +1,46 @@
+body{
+    /*background-image: url(myPhotos/cat1.jpg);
+    background-size: contain;*/
+    background-color: white;
+}
+/*.menu-bar{
+    background-color: rgb(15, 18, 230);
+    display:flex;
+    border: 2px solid black;
+    justify-content: flex-end;
+}
+.menu-bar ul{
+    display: inline-flex;
+    justify-content: space-around;
+    background-color: blue;
+}
+.menu-bar ul li{
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-around;
+    list-style: none;
+    border: 1px solid black;
+    
+}*/
+.menu-bar{
+    min-height: 100px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.menu-bar div{
+    padding: 3px;
+    margin: 25px;
+    background-color:blue;
+    color: white;
+}
+.menu-bar img{
+    width: 20px;
+    /*margin-right: 30px;*/
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
