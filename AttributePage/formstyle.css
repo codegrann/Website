@@ -1,0 +1,231 @@
+h1{
+	color: blue;
+	font-size: 30pt;
+	text-shadow: rosybrown -5px 3px 1px;
+	animation-name: text;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+@keyframes text{
+	0% {color: rosybrown;}
+	12.5% {color: maroon;}
+	25% {color: black;}
+	37.5% {color: hotpink;}
+	50% {color: greenyellow;}
+	62.5% {color: seagreen;}
+	75% {color: purple;}
+	87.5% {color: lightgoldenrodyellow;}
+	100% {color: red;}
+}
+h1::before{
+	content: url(css.png);
+	filter: drop-shadow(2px 2px 2px red);
+	filter: saturate(100%);
+	filter: hue-rotate(120deg);
+	filter: invert(100%);
+}
+.form{
+	width: 15cm;
+	height: 15cm;
+	border-width: 5px;
+	border-style: double;
+	border-color: rgb(0, 255, 0);
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-right: 5px;
+	padding-left: 5px;
+	overflow-y: scroll;
+
+}
+#datalist{
+	background-color: rgb(0, 255, 0);
+    border-width: 0.5px;
+}
+.background{
+	background-image: url("cert-1014-21608394.jpg");
+	background-size: contain;
+
+}
+.background.background-image{
+    padding: 20em;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+   
+}
+#table{
+	background-color: rosybrown;
+	border-collapse: separate;
+	border-spacing: 20px 40px;
+	empty-cells: show;
+	animation-name: table;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes table{
+	0% {background-color: rosybrown;}
+	50% {background-color: black;}
+	70% {background-color: whitesmoke;}
+	100% {background-color: darkred;}
+}
+caption{
+	caption-side: top;
+}
+a:link{
+	text-decoration: none;
+}
+
+a:visited{
+	color: maroon;
+}
+a:hover{
+	color: green;
+}
+}
+p.fixed{
+	position: fixed;
+	top: 2cm;
+	right: 10cm;
+	color: black;
+	font-size: 20pt;
+	font-family: "sans-serif", Arial;
+	font-weight: 700;
+	font-style: oblique;
+	font-variant: small-caps;
+}
+img{
+	float: right;
+	margin-left: 0.5cm;
+	margin-bottom: 0.5cm;
+	-webkit-border-radius: 0 0 12px 12px;
+	opacity: 0.7;
+}
+.overflow{
+	width: 5cm;
+	height: 5cm;
+	background-color: orange;
+	overflow: scroll;
+	box-shadow: 10px 10px grey;
+
+}
+.boxes{
+
+}
+#box1{
+	background-color: green;
+	width: 7cm;
+	height: 7cm;
+	margin-left: 6cm;
+	margin-right: 0.5cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	-webkit-border-radius: 24px; 
+}
+#box2{
+	background-color: whitesmoke;
+	width: 6cm;
+	height: 6cm;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+}
+#box3{
+	background-color: darkred;
+	width: 5cm;
+	height: 5cm;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	-webkit-border-radius: 12px; 
+}
+#box4{
+	background-color: whitesmoke;
+	width: 4cm;
+	height: 4cm;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+}
+#box5{
+	background-color: black;
+	width: 3cm;
+	height: 3cm;
+	margin-left: 0.5cm;
+	margin-right: 0.5cm;
+	margin-top: 0.5cm;
+	margin-bottom: 0.5cm;
+	-webkit-border-radius: 12px; 
+}
+#linear{
+	width: 10cm;
+	height: 10cm;
+	margin: 5cm;
+	background: -webkit-repeating-linear-gradient(45deg, DeepSkyBlue 90%, Black);
+    font-size: large;
+    font-style: italic;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    opacity: 0.5;
+}
+#radial{
+	width: 15cm;
+	height: 15cm;
+	margin: 5cm;
+	background: -webkit-repeating-radial-gradient(50% 50%, ellipse, black 20%, blue 40% , rosybrown 60%, yellow 80%);
+	font-size: xx-large;
+    font-style: italic;
+    font-weight: 700;
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: -5px -5px 2px red;
+    letter-spacing: 2pt;
+}
+.svg{
+
+	background-color: palegreen;
+	background-clip: content-box;
+	transition: background-color 0.5s;
+	transition-timing-function: linear;
+}
+.svg:hover{
+	background-color: orange;
+	cursor: wait;
+
+}
+#marquee{
+	font-size: 25pt;
+	font-weight: 700;
+	font-style: oblique;
+	color: darkred;
+	font-variant: small-caps;
+}
+#submit{
+	font-size: 12pt;
+	color: blue;
+	font-weight: 700;
+	border-style: none;
+	background-color: palegreen;
+    transition: font-size 0.5s ease-in;
+}
+#submit:hover{
+	color: green;
+	cursor: pointer;
+	font-size: 5pt;
+}
+
+#transform{
+	transform: translate(100px, 50px);
+	transform: rotate(45deg);
+	transform: skew(45deg, 10deg);
+	transform: scale(2);
+}
+#marquee{
+	position: fixed;
+}
+
+
