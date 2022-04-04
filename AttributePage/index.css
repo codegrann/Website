@@ -1,5 +1,6 @@
 body{
-    background-color: aqua;
+    /*background-color: linear-gradient(red, blue);*/
+    box-sizing: border-box;
     
 }
 .main-container{
@@ -29,13 +30,13 @@ a{
     text-decoration-color: crimson;
 }
 .mini-containers{
-    background: url(cat1.jpg);
+    background: turquoise;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 3px;
     padding: 5px;
     max-width: 600px;
-    color: blanchedalmond;
+    color: rgb(3, 0, 15);
 }
 /*.mini-containers > img{
     z-index: -1;
