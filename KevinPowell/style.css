@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aqua;
+    background-color: turquoise;
 }
 
 .head-container {
@@ -63,6 +63,14 @@ body {
 .img-container img {
     /*width: 300px;*/
     max-width: 100%;
+}
+
+ol {
+    list-style: lower-roman;
+}
+
+.div2 {
+    text-align: center;
 }
 
 @media (max-width: 600px) {
