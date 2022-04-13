@@ -65,7 +65,7 @@ body {
     max-width: 100%;
 }
 
-ol {
+/* ol {
     list-style: lower-roman;
 }
 
@@ -78,19 +78,19 @@ button{
     box-shadow: 2px 2px;
     cursor: pointer;
 }
-/* button:hover{ */
+button:hover{
     /* box-shadow: 3px 3px;
     /* transform: translatey(-0.75rem); 
     box-shadow: 10rem;
      cursor: pointer; 
- } */
+ } 
 #selection{
     background-color: grey;
     border: none;
     color: gold;
     cursor: pointer;
     color: white;
-}
+} */
 
 @media (max-width: 600px) {
     .head-container {
