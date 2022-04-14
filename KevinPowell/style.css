@@ -66,10 +66,44 @@ body {
 }
 
 
+#section_2{
+    display: flex;
+    border: 2px solid black;
+    padding: 1.75rem;
+    justify-content: center;
+}
+.section_2_divs{
+    background-color: rgb(129, 29, 129);
+    border: 2px solid black;
+    max-width: 10rem;
+    min-height: 15rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+}
 
+.section_2_divs:hover{
+    background-color: blueviolet;
+    max-width: 11rem;
+}
+#section_3{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding: 1.75rem;
+}
+.section_3_divs{
+    background-color: rgb(129, 29, 129);
+    border: 2px solid black;
+    max-width: 10rem;
+    max-height: 15rem;
+    margin: 0.75rem;
+    border-radius: 0.5rem;
+}
 
-
-
+.section_3_divs img{
+    max-width: 100%;
+    height: auto;
+}
 
 
 
