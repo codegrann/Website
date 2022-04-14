@@ -82,10 +82,9 @@ body {
 }
 
 .section_2_divs:hover{
-    background-color: blueviolet;
+    background-color: rgb(129, 29, 129, 0.7);
     max-width: 11rem;
-}
-#section_3{
+}git tion_3{
     border: 2px solid black;
     display: flex;
     justify-content: center;
