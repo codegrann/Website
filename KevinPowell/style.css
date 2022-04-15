@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: turquoise;
+    background-color: rgb(21, 218, 198);
 }
 
 .head-container {
@@ -68,13 +68,13 @@ body {
 
 #section_2{
     display: flex;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     padding: 1.75rem;
     justify-content: center;
 }
 .section_2_divs{
     background-color: rgb(129, 29, 129);
-    border: 2px solid black;
+    /* border: 2px solid black; */
     max-width: 10rem;
     min-height: 15rem;
     margin: 0.75rem;
@@ -84,8 +84,9 @@ body {
 .section_2_divs:hover{
     background-color: rgb(129, 29, 129, 0.7);
     max-width: 11rem;
-}git tion_3{
-    border: 2px solid black;
+}
+#section_3{
+    /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     padding: 1.75rem;
@@ -97,7 +98,7 @@ body {
 }
 .section_3_divs{
     /* background-color: rgb(129, 29, 129); */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     max-width: 10rem;
     max-height: 15rem;
     margin: 0.5rem;
@@ -109,15 +110,32 @@ body {
 .section_3_divs:hover{
     max-width: 12rem;
 }
+#nxt_btn{
+    /* background-color: grey; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+    
+}
+#next_page{
+    background-color: blue;
+    padding: 0.5em;
+    color: wheat;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 0.75em;
+}
+#next_page:hover{
+    background-color: rgb(66, 66, 170);
+}
 
 
 
 
 
 
-
-
-@media (max-width: 600px) {
+@media (max-width: 450px) {
     .head-container {
         display: flex;
         flex-direction: column;
@@ -148,9 +166,19 @@ body {
         width: 12rem;
     }
 
-    /*.img-container img{
-        min-width: 100%; 
-        margin: 0 auto; 
-        width: 100%;
-    }*/
+    #section_2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        
+    }
+    .section_2_divs{
+        min-width: 5rem;
+        min-height: 7.5rem;
+        margin: 0.25rem;
+    }
+    .section_2_divs:hover{
+        min-width: 5rem;
+        min-height: 7.5rem;
+    }
 }
