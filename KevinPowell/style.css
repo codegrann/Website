@@ -79,6 +79,12 @@ body {
     min-height: 15rem;
     margin: 0.75rem;
     border-radius: 0.5rem;
+    padding: 0.5rem;
+    /* transition: opacity 5s ease-in; */
+    /* transform: rotate(10deg); */
+    /* transform: translate(2rem, 3rem) */
+    /* transform: skew(10deg); */
+    /* transform: scale(0.5); */
 }
 
 .section_2_divs:hover{
