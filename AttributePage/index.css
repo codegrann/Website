@@ -1,5 +1,6 @@
 body{
     /*background-color: linear-gradient(red, blue);*/
+   
     box-sizing: border-box;
     
 }
@@ -8,7 +9,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: azure;
+    background-image: url(Child.jpeg);
+    background-attachment: scroll;
     text-align: center;
     margin: 5px;
     padding: 10px;
@@ -30,7 +32,7 @@ a{
     text-decoration-color: crimson;
 }
 .mini-containers{
-    background: turquoise;
+    /* background: turquoise; */
     background-repeat: no-repeat;
     background-size: cover;
     margin: 3px;
