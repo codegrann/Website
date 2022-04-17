@@ -80,16 +80,16 @@ body {
     margin: 0.75rem;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    /* transition: opacity 5s ease-in; */
-    /* transform: rotate(10deg); */
-    /* transform: translate(2rem, 3rem) */
-    /* transform: skew(10deg); */
-    /* transform: scale(0.5); */
+    transition: max-width 1s, min-height 1s, background-color 1s;
+    transition-timing-function: ease-out;
+    /* transition-delay: 0.1s; */
 }
 
 .section_2_divs:hover{
     background-color: rgb(129, 29, 129, 0.7);
     max-width: 11rem;
+    min-height: 16rem;
+    
 }
 #section_3{
     /* border: 2px solid black; */
