@@ -66,13 +66,14 @@ body {
 }
 
 
-#section_2{
+#section_2 {
     display: flex;
     /* border: 2px solid black; */
     padding: 1.75rem;
     justify-content: center;
 }
-.section_2_divs{
+
+.section_2_divs {
     background-color: rgb(129, 29, 129);
     /* border: 2px solid black; */
     max-width: 10rem;
@@ -85,24 +86,27 @@ body {
     /* transition-delay: 0.1s; */
 }
 
-.section_2_divs:hover{
+.section_2_divs:hover {
     background-color: rgb(129, 29, 129, 0.7);
     max-width: 11rem;
     min-height: 16rem;
-    
+
 }
-#section_3{
+
+#section_3 {
     /* border: 2px solid black; */
     display: flex;
     justify-content: center;
     padding: 1.75rem;
 }
-.section_3_divs img{
+
+.section_3_divs img {
     max-width: 100%;
     height: auto;
     border-radius: 0.5rem;
 }
-.section_3_divs{
+
+.section_3_divs {
     /* background-color: rgb(129, 29, 129); */
     /* border: 2px solid black; */
     max-width: 10rem;
@@ -110,21 +114,54 @@ body {
     margin: 0.5rem;
     border-radius: 0.5rem;
 }
-.centered_img{
+
+.centered_img {
     align-self: center;
 }
-.section_3_divs:hover{
+
+.section_3_divs:hover {
     max-width: 12rem;
 }
-#nxt_btn{
+
+#section_4 {
+    background-color: antiquewhite;
+    min-width: 30rem;
+    min-height: 20rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.section_4divs {
+    background-color: purple;
+    margin: 1rem;
+    border-radius: 12px;
+    padding: 1.75rem;
+    transform: none;
+    transition: transform 1s ease-out;
+    /*animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: 2;*/
+}
+
+.section_4divs+div:hover {
+    transform: rotate(90deg);
+    transform: translate(2rem, 3rem);
+    transform: skew(10deg, 10deg);
+    transform: scale(0.5);
+    /* transform: matrix(0.5, 10deg, 10deg, 0.5, 2rem, 3rem); */
+}
+
+#nxt_btn {
     /* background-color: grey; */
     width: 100%;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
-    
+
 }
-#next_page{
+
+#next_page {
     background-color: blue;
     padding: 0.5em;
     color: wheat;
@@ -132,7 +169,8 @@ body {
     border-radius: 0.75rem;
     font-size: 0.75em;
 }
-#next_page:hover{
+
+#next_page:hover {
     background-color: rgb(66, 66, 170);
 }
 
@@ -172,18 +210,20 @@ body {
         width: 12rem;
     }
 
-    #section_2{
+    #section_2 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
-        
+
     }
-    .section_2_divs{
+
+    .section_2_divs {
         min-width: 5rem;
         min-height: 7.5rem;
         margin: 0.25rem;
     }
-    .section_2_divs:hover{
+
+    .section_2_divs:hover {
         min-width: 5rem;
         min-height: 7.5rem;
     }
