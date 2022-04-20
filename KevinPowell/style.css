@@ -139,18 +139,24 @@ body {
     padding: 1.75rem;
     transform: none;
     transition: transform 1s ease-out;
-    /*animation-name: move;
-    animation-duration: 3s;
-    animation-iteration-count: 2;*/
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
-.section_4divs+div:hover {
-    transform: rotate(90deg);
-    transform: translate(2rem, 3rem);
-    transform: skew(10deg, 10deg);
-    transform: scale(0.5);
-    /* transform: matrix(0.5, 10deg, 10deg, 0.5, 2rem, 3rem); */
+@keyframes move {
+    10% {transform: rotate(360deg);}
+    25%{transform: translate(1.5cm, 1.5cm);}
+    50%{transform: skew(15deg);}
 }
+
+/* .section_4divs+div:hover { */
+    /* transform: rotate(90deg); */
+    /* transform: translate(2rem, 3rem); */
+    /* transform: skew(10deg, 10deg); */
+    transform: scale(0.5);
+/* } */
 
 #nxt_btn {
     /* background-color: grey; */
