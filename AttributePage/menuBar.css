@@ -23,18 +23,26 @@ body{
     
 }*/
 .menu-bar{
-    min-height: 100px;
+    /* min-height: 100px; */
+    /* width: 100%; */
     background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
+
 .menu-bar div{
-    padding: 3px;
+    padding: 0.75rem;
     margin: 25px;
-    background-color:blue;
-    color: white;
+    /* background-color:blue; */
+    color: rgb(6, 6, 6);
+    border-radius: 0.75rem;
+}
+.menu-bar div:hover{
+    background-color: rgb(46, 103, 97);
+    cursor: pointer;
 }
 .menu-bar img{
     width: 20px;
