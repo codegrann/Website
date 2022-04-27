@@ -24,19 +24,20 @@ body{
 }*/
 .menu-bar{
     /* min-height: 100px; */
-    /* width: 100%; */
+    width: 100vw;
     background-color: aqua;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    /* flex-grow: 1; */
 }
 
 .menu-bar div{
     padding: 0.75rem;
     margin: 25px;
-    /* background-color:blue; */
+    background-color:blue;
     color: rgb(6, 6, 6);
     border-radius: 0.75rem;
 }
