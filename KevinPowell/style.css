@@ -140,10 +140,13 @@ body {
     margin: 1rem;
     border-radius: 12px;
     padding: 1.75rem;
-    transform: none;
-    transition: transform 1s ease-out;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* transform: none; */
+    /* transition: transform 1s ease-out; */
     animation-name: move;
     animation-duration: 5s;
+    animation-timing-function: ccubic-bezier(.18,.89,.32,1.28);
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
