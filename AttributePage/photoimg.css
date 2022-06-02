@@ -5,41 +5,41 @@ body{
     background-color: white;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat((auto, 50px));
+    grid-template-rows: repeat(minmax(100px, auto));
+    /* grid-flow: dense; */
 }
-.container > img{
-    width: 50px;
-    height: 50px;
+img{
+    width: 100%;
 }
-/*.small{
-    width: 50px;
-    height: 50px;
+.small{
+    width: 100px;
+    height: 100px;
 }
 .medium{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
 }
 .x-medium{
-    width: 50px;
-    height: 50px;
+    width: 150px;
+    height: 100px;
 }
 .tall{
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 150px;
 }
 .long{
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 100px;
 }
-#one{
-    grid-column: 1;
-}
-#two{
-    grid-column: auto/span 2;
-}
-#three{
-    grid-column: auto/span 2;
-}
-#four{
-    grid-column: auto/span 2;
-}
+/* #one{ */
+    /* grid-column: 1; */
+/* } */
+/* #two{ */
+    /* grid-column: auto/span 2; */
+/* } */
+/* #three{ */
+    /* grid-column: auto/span 2; */
+/* } */
+/* #four{ */
+    /* grid-column: auto/span 2; */
+/* } */
