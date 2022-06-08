@@ -161,10 +161,21 @@ switch(month){
     // document.write("Thank you for staying with us.");
 // }
 
-function test(number){
-    while(number<5){
-        number++
-    }
-    return number;
-}
-alert(test(9));
+// function test(number){
+    // while(number<5){
+        // number++
+    // }
+    // return number;
+// }
+// alert(test(9));
+
+// function myString(name){
+    // return  name;
+// }
+// alert(myString("Hillary"));
+var name; 
+var age;
+var person={
+    name:"Hillary", age:23
+};
+alert(person);
