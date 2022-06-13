@@ -98,40 +98,40 @@ switch(month){
 // LOOPS
 
 // for(i=0;i<=10;i++){
-    // document.write(i +"<br>");
-    // console.log(i);
+// document.write(i +"<br>");
+// console.log(i);
 // }
 
 // var expression=readLine();
 // for(i=1;i<=3;i++){
-    // console.log(expression)
+// console.log(expression)
 // }
 
 // Even numbers
 // for(i=0;i<=20;i+=2){
-    // console.log(i);
-    // document.write(i+'<br>')
+// console.log(i);
+// document.write(i+'<br>')
 // }
 
 // var sec=5;
 // while(sec>=0){
-    // document.write(sec);
-    // sec--;
+// document.write(sec);
+// sec--;
 // }
 
 // for(i=0;i<=10;i++){
-    // if(i==5){
-        // break;
-    // }
-    // document.write(i);
+// if(i==5){
+// break;
+// }
+// document.write(i);
 // 
 // }
 
 // Do...while loop
 // i=0;
 // do{
-    // document.write(i);
-    // i++;
+// document.write(i);
+// i++;
 // }
 // while(i<5);
 
@@ -140,7 +140,7 @@ switch(month){
 
 
 // function hello(name, name2){
-    // alert("Hello there "+ name+" " + name2);
+// alert("Hello there "+ name+" " + name2);
 // }
 // hello("Hillary", "Omondi");
 
@@ -156,26 +156,90 @@ switch(month){
 
 // var like=confirm("Do you want to really leave the page");
 // if(like==true){
-    // document.write("Welcome back next time.");
+// document.write("Welcome back next time.");
 // } else{
-    // document.write("Thank you for staying with us.");
+// document.write("Thank you for staying with us.");
 // }
 
 // function test(number){
-    // while(number<5){
-        // number++
-    // }
-    // return number;
+// while(number<5){
+// number++
+// }
+// return number;
 // }
 // alert(test(9));
 
 // function myString(name){
-    // return  name;
+// return  name;
 // }
 // alert(myString("Hillary"));
-var name; 
-var age;
-var person={
-    name:"Hillary", age:23
-};
-alert(person);
+
+
+// NESTING OBJECTS
+// var person={
+// name:"Hillary",
+// age:23,
+// DOB:{
+// year:2000,
+// month:"March",
+// day:23
+// }
+// };
+// alert(Object.values(person.DOB));
+
+// OBJECT CONSTRUCTOR
+// function person(name, age){
+// this.name=name;
+// this.age=age;
+// this.changeName=function(name){
+// this.name=name;
+// }
+// }
+// var papa=new person("papa", 23);
+// var omosh=new person("omondi", 22);
+// var cee=new person("obiero", 20);
+//  alert(papa.name);
+// papa.changeName("ericko");
+// alert(papa.name);
+
+// ARRAY
+
+// LOOPING AN ARRAY
+// var names=["papa", "omosh", "obiero"];
+// alert(names);
+// for(n=0;n<names.length;n++){
+// console.log(names[n]);
+// }
+
+
+// 
+// let languages = new Array("HTML","CSS","JS");
+// let libraries = new Array("Bootstrap", "REACT")
+// 
+// let front_end = languages.concat(libraries);
+// document.write(front_end);
+// 
+// let style= languages[1].concat(libraries[0]);
+// document.write(style);
+
+// MATH
+// let rand=Math.floor(Math.random()*10);
+// document.write(rand)
+
+// DATE
+
+// let d=new Date("2 Jan, 2015, 10:42:00");
+// document.write(d);
+ 
+//  function printTime(){
+    //  let d =new Date();
+    //  let hrs=d.getHours();
+    //  let mins=d.getMinutes();
+    //  let sec=d.getSeconds();
+    //  let ms=d.getMilliseconds();
+    //  document.body.innerHTML=hrs+":"+mins+":"+sec+":"+ms;
+    // alert('${hrs} + : + ${min} + : + ${sec}+:+ ${ms}');
+// }
+// setInterval(printTime, 2000);
+
+alert(Math.PI);
