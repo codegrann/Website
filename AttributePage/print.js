@@ -242,4 +242,27 @@ switch(month){
 // }
 // setInterval(printTime, 2000);
 
-alert(Math.PI);
+
+// DOM
+// Selecting Elements
+
+// let td=document.getElementsByTagName("td");
+// td[6].innerHTML="Overwritten Content";
+// td[14].innerHTML="Overwritten Content";
+// for(i=0;i<td.length;i++){
+    // td[i].innerHTML="All are data";
+//   
+// }
+
+
+// Changing Attributes
+// let color=document.getElementById("colorType");
+// color.type="color";
+
+
+// Creating Elements
+let newTr=document.createElement("tr");
+let txt=document.createTextNode(tr);
+newTr.appendChild(txt);
+let table=document.getElementsByTagName("table");
+table.appendChild(newTr);
