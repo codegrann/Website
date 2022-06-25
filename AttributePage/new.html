@@ -103,6 +103,21 @@
             cursor: pointer;
             /* box-shadow: 2px 2px 10px white, -2px -2px 10px white; */
         }
+        #img_slider{
+            background-color: rgb(40, 224, 218);
+            width: 100vh;
+            min-height: 100px;
+            /* margin: 0 auto; */
+            padding: 0.75rem;
+            display: inline-flex;
+            justify-content: center;
+        }
+        #img_slider button{
+            align-self: center;
+        }
+        #img_slider img{
+            margin: 5px;
+        }
 
        @media (max-width:500px){
            body{
@@ -116,14 +131,18 @@
     <hr id="hr1">
     <fieldset>
         <legend>Sample</legend>
-        <form action="">
-            <input type="button" value="send" id="colorType"><br>
-            <input type="url"><br>
+        <form action="" id="form_1">
+            <input type="button" value="send" id="colorType"><br><br>
+            <label for="txt1">Your age:</label><br>
+            <input type="number" id="txt1" placeholder="Enter your age"><br><br>
+            <label for="txt2">DOB:</label>
+            <input type="number" id="txt2"><br><br>
             Attach file:
             <input type="file"><br>
-            <input type="color">
+            <input type="color" id="colorChange">
         </form>
     </fieldset>
+    <div id="catch">
     <p>
     <pre>
      Lorem ipsum dolor sit amet,br
@@ -131,7 +150,12 @@
     Qui debitis rerum veritatis ea earum 
     hic provident adipisci est aliquid? Quo?
     </pre>
-    </p>
+    </p></div>
+    <div id="img_slider">
+        <button onclick="prev()">Prev</button>
+        <img src="charles-deluvio-Mv9hjnEUHR4-unsplash.jpg" alt="" id="slider" width="100px" height="auto">
+        <button onclick="next()">Next</button>
+    </div>
     <div id="media_1">
         <fieldset>
             <legend>Mp3 files</legend>
