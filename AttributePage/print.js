@@ -261,8 +261,59 @@ switch(month){
 
 
 // Creating Elements
-let newTr=document.createElement("tr");
-let txt=document.createTextNode(tr);
-newTr.appendChild(txt);
-let table=document.getElementsByTagName("table");
-table.appendChild(newTr);
+// let par2=document.createElement("p");
+// let txt=document.createTextNode("This is a new paragraph");
+// par.appendChild(txt);
+// let body=document.getElementsById("catch");
+// let par1=document.getElementsByTagName("p");
+// body.replaceChild(par2, par1);
+
+
+// EVENT HANDLERS & LISTENERS
+
+let form=document.getElementById("form_1");
+form.style.backgroundColor="aqua";
+form.style.color="black";
+let changeBg=document.getElementById("colorChange");
+    changeBg.addEventListener("input", background)
+    function background(){
+        form.style.backgroundColor=changeBg.value;
+    }
+let txt1=document.getElementById("txt1");
+let txt2=document.getElementById("txt2");
+let date=new Date();
+let yr=date.getFullYear();
+ txt1.addEventListener("input", change);
+ function change(){
+    txt2.value=yr-txt1.value;
+ }
+
+
+
+
+
+//  IMAGE SLIDER
+
+let images=[
+    "charles-deluvio-Mv9hjnEUHR4-unsplash.jpg",
+    "cat1.jpg",
+    "Child.jpeg"
+]
+let pos=0;
+function prev(){
+    let slider=document.getElementById("slider")
+    pos--;
+    if(pos<0){
+         pos=images.length-1;
+    }
+    slider.src=images[pos];
+}
+
+function next(){
+    let slider=document.getElementById("slider");
+    pos++;
+    if(pos>=images.length){
+        pos=0;
+    }
+    slider.src=images[pos];
+}
