@@ -1,0 +1,131 @@
+.body1{
+	background-color: skyblue;
+
+}
+.body2{
+	background-image: url(myPhotos/charles-deluvio-Mv9hjnEUHR4-unsplash.jpg);
+	margin: 20px;
+	padding-left: 0.4cm;
+}
+#one{
+	width: 2.5cm;
+	height: ;
+	border: 0px;
+	border-style: solid;
+}
+#two{
+	width: 2.5cm;
+	height: ;
+	border: 0px;
+	border-style: solid;
+	float: left;
+}
+.first{
+    margin: 2px;
+}
+.second{
+	float: left;
+	margin: 2px;
+}
+.third{
+	margin: 2px;
+	float: left;
+
+}
+#first{
+	width: 5cm;
+	height: auto;
+	position: relative;
+	border-radius: 10px;
+}
+#first:hover{
+	width: 6cm;
+	height: auto;
+	opacity: 0.5;
+	cursor: pointer;
+	overflow: hidden;
+}
+#second{
+    width: 5cm;
+    height: auto;
+    border-radius: 10px;
+}
+#second:hover{
+	width: 6cm;
+	height: auto;
+	opacity: 0.5;
+	cursor: pointer;
+}
+#third{
+	width: 5cm;
+	height: auto;
+	border-radius: 10px;
+}
+#third:hover{
+	width: 6cm;
+	height: auto;
+	opacity: 0.5;
+	cursor: pointer;
+}
+#nav1{
+	float: left;
+	list-style: none;
+
+}
+#nav2{
+	list-style: none;
+	text-align: right;
+}
+.submit{
+	background-color: red;
+	border-style: none;
+}
+.submit:hover{
+	color: lime;
+	background-color: black;
+	width: 2cm;
+	height: 0.5cm;
+}
+#dog{
+	/*width: 5cm;
+	height: 2.5cm;*/
+	background-color: turquoise;
+	border: 1px solid black;
+	box-shadow: 2px 2px 2px red;
+
+}
+.nav-flex{
+	display: flex;
+	padding: 0.5rem;
+	justify-content: flex-end;
+}
+.nav-flex li{
+	list-style: none;
+	margin: rem;
+	background-color: aqua;
+	padding: 2rem;
+
+}
+.nav-flex li a{
+	color: black;
+	text-decoration: none;
+
+}
+#clip-path{
+	width: 5cm;
+	height: auto;
+	border-radius: 50%;
+	
+}
+button{
+	background-color: palegoldenrod;
+	border: 2px solid black;
+	color: red;
+}
+button:hover{
+	background-color: limegreen;
+	color: black;
+	cursor: pointer;
+	border: 2px solid beige;
+
+}

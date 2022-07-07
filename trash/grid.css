@@ -1,0 +1,35 @@
+.div1{
+	background-color: aqua;
+	font-size: 30px;
+}
+li{
+	display: inline;
+	margin: 5px;
+}
+.grid-container{
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+	font-size: 18px;
+}
+#first{
+	background: skyblue;
+	grid-column: 1/-1;
+	padding: 30px;
+	font-size: 0.75em;
+}
+#second{
+	background: rebeccapurple;
+	padding: 10px;
+	/*grid-auto-rows: 500px;*/
+}
+#third{
+	background: purple;
+	padding: 10px;
+}
+*{
+	font-family: sans-serif, 'Times New Roman', Arial;
+	font-size: large;
+	font-weight: 500;
+}
